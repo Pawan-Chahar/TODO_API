@@ -1,6 +1,7 @@
-def main():
-    print("Hello from todo-api!")
-
+import uvicorn
 
 if __name__ == "__main__":
-    main()
+    uvicorn.run("app.main:app", reload=True)
+
+
+    
