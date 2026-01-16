@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-def main():
-    print("Hello from todo-api!")
-
-
-if __name__ == "__main__":
-    main()
-=======
 import uvicorn
 
 if __name__ == "__main__":
@@ -13,4 +5,3 @@ if __name__ == "__main__":
 
 
     
->>>>>>> dev
