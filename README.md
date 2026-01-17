@@ -10,7 +10,6 @@ Perfect for learning API development, CRUD operations, and lightweight backend p
 
 - **CRUD** operations for Todo items (Create, Read, Update, Delete)
 - RESTful endpoints (`/todos`, `/todos/{id}`, etc.)
-- SQLite database for persistent storage (zero-config)
 - Automatic interactive API documentation (Swagger UI & ReDoc)
 - Clean project structure
 - Dependency management with **uv** (or poetry/pip)
@@ -30,7 +29,6 @@ TODO_API/
 ├── app/                # Core application logic, models, database
 │   └── ...
 ├── main.py             # Entry point - FastAPI app
-├── todo.db             # SQLite database file (auto-created)
 ├── pyproject.toml      # Project metadata & dependencies (uv compatible)
 ├── uv.lock             # Locked dependencies
 ├── .gitignore
